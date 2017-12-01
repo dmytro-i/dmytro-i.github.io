@@ -1,23 +1,74 @@
 body {
     margin: 0;
+    background: #ffffff;
+}
+
+body.contact {
+    background: #222222;
+}
+
+body.experience {
+    background: #222222;
+}
+
+body.hire-me {
     background: #222222;
 }
 
 .header {
-    background: #0078d7;
+    background: #4a148c;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 555px;
+    height: 525px;
     z-index: -1;
+}
+
+.header.contact {
+    background: #311b92;
+}
+
+.header.experience {
+    background: #0078d7;
+}
+
+.header.hire-me {
+    background: #004d40;
+}
+
+.header-content {
+    font-family: "Segoe UI Light", "Segoe WP Light", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    height: 288px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.header-content h1 {
+    font-weight: normal;
+    font-size: 42px;
+}
+
+.header-content h2 {
+    font-weight: normal;
+    font-size: 28px;
 }
 
 .header-links {
     width: 1200px;
-    margin: 10px auto;
+    margin: 20px auto 10px;
     color: white;
     font-family: "Segoe UI Light", "Segoe WP Light", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header-links a {
+    margin-right: 10px;
+    width: 150px;
+    display: inline-block;
 }
 
 a, a:link {
@@ -25,9 +76,8 @@ a, a:link {
     color: white;
 }
 
-.header-content {
-    width: 100%;
-    height: 413px;
+a:hover {
+    color: #cccccc;
 }
 
 .content {
@@ -36,4 +86,13 @@ a, a:link {
     margin: 300px auto 100px auto;
     background: #fff;
     border-radius: 2px;
+}
+
+.content-transparent {
+    width: 1200px;
+    min-height: 100px;
+    margin: 550px auto 100px auto;
+    font-family: "Segoe UI Light", "Segoe WP Light", "Segoe UI", "Segoe WP", Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
 }
