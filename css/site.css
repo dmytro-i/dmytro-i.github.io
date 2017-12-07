@@ -117,6 +117,21 @@ a:hover {
     width: 1100px;
 }
 
+.content.hire-me {
+    font-family: "Segoe UI";
+    padding: 50px;
+    width: 1100px;
+    font-size: 20px;
+}
+
+.content.hire-me a {
+    color: #004d40;
+}
+
+.content.hire-me a:hover {
+    color: #888888;
+}
+
 .table-cell {
     display: inline-block;
     padding: 10px;
@@ -165,4 +180,16 @@ li.perf {
 li.test {
     background: url('../images/ic_offline_pin_black_18dp_1x.png') no-repeat;
     background-position: left center;
+}
+
+p.freelancer {
+    padding: 23px 0 23px 124px;
+    background: url('../images/freelancer.com-100px.jpg') no-repeat;
+    background-position: left center;
+}
+
+p.project-description {
+    padding: 23px 124px 23px 0;
+    background: url('../images/ic_insert_drive_file_black_100px.png') no-repeat;
+    background-position: right center;
 }
