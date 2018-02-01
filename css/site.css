@@ -188,8 +188,26 @@ p.upwork {
     background-position: left center;
 }
 
+p.upwork-profile {
+    padding: 23px 0 23px 124px;
+    background: url('../images/raising-talent.png') no-repeat;
+    background-position: left center;
+}
+
 p.project-description {
     padding: 23px 124px 23px 0;
     background: url('../images/ic_insert_drive_file_black_100px.png') no-repeat;
     background-position: right center;
+}
+
+a.rising-talent, a.rising-talent:hover, a.rising-talent:active, a.rising-talent:visited, .content.hire-me a.rising-talent {
+    font-size: 32px;
+    color: #14BFF4;
+    text-transform: uppercase;
+}
+
+.skill-row {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 60px;
 }
