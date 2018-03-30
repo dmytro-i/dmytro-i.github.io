@@ -91,7 +91,7 @@ a:hover {
 .content {
     width: 1200px;
     min-height: 500px;
-    margin: 300px auto 100px auto;
+    margin: 300px auto 0 auto;
     background: #fff;
     border-radius: 2px;
 }
@@ -182,15 +182,9 @@ li.test {
     background-position: left center;
 }
 
-p.upwork {
+p.work {
     padding: 23px 0 23px 124px;
-    background: url('../images/upwork-logo.png') no-repeat;
-    background-position: left center;
-}
-
-p.upwork-profile {
-    padding: 23px 0 23px 124px;
-    background: url('../images/raising-talent.png') no-repeat;
+    background: url('../images/ic_work_black_48dp_2x.png') no-repeat;
     background-position: left center;
 }
 
