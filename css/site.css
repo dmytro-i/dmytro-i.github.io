@@ -188,6 +188,18 @@ p.work {
     background-position: left center;
 }
 
+p.pay {
+    padding: 23px 0 23px 124px;
+    background: url('../images/ic_monetization_on_black_48dp_2x.png') no-repeat;
+    background-position: left center;
+}
+
+p.contact {
+    padding: 23px 0 23px 124px;
+    background: url('../images/ic_email_96px.png') no-repeat;
+    background-position: left center;
+}
+
 p.project-description {
     padding: 23px 124px 23px 0;
     background: url('../images/ic_insert_drive_file_black_100px.png') no-repeat;
